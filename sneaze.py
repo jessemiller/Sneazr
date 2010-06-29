@@ -6,7 +6,7 @@ class Sneazr(Plugin):
      
     def __init__(self):
         Plugin.__init__(self)
-        self.notifier = GrowlNotifier(applicationName='Runny Nose', notifications=GROWL_NOTIFICATIONS_DEFAULT)
+        self.notifier = GrowlNotifier(applicationName='Sneazr', notifications=GROWL_NOTIFICATIONS_DEFAULT)
         self.notifier.register()
     
     def finalize(self, result=None):
