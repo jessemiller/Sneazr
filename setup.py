@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
 	name='sneazr',
     version = '0.1b1',
-    py_modules = ['sneazr'],
+    scripts = ['sneaze.py'],
     author = 'Jesse Miller',
     author_email = 'millerjesse@gmail.com',
     description = 'Have nosetests notify to growl',
