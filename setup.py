@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sneazr',
-    version = '0.1b1',
+    version = '0.1',
     py_modules=['sneaze'],
     author = 'Jesse Miller',
     author_email = 'millerjesse@gmail.com',
