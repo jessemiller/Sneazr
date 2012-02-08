@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='sneazr',
@@ -15,6 +15,8 @@ setup(
         'nose',
         'py-Growl',
     ],
+    packages=find_packages(),
+    include_package_data=True,
     entry_points = {
         'nose.plugins.0.10': ['sneazr = sneaze:Sneazr']
     }
